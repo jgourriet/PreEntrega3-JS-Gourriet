@@ -28,6 +28,10 @@ body::-webkit-scrollbar-thumb {
   border-left: 2px solid var(--background);
   background-color: #37FF8B;
 }
+body main {
+  margin: 0;
+  padding: 0;
+}
 
 button {
   cursor: pointer;
@@ -363,6 +367,7 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  padding: 0%;
 }
 
 .hero-img {
@@ -374,14 +379,15 @@ nav {
 }
 .hero-img img {
   width: 100%;
-  margin-bottom: -50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
   filter: drop-shadow(5px 5px 10px #37FF8B);
 }
 
 .hero-text {
   width: 100%;
   height: auto;
-  margin-top: 50px;
+  margin-top: 100px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -559,7 +565,7 @@ hr {
 }
 
 .btn-cat {
-  width: 5rem;
+  width: 120px;
   margin: 30px 0;
   padding: 10px;
   background-color: var(--secondary);
@@ -806,7 +812,10 @@ footer {
     font-size: 4rem;
   }
   .hero p {
+    margin: 0;
+    padding: 0;
     font-size: 1rem;
+    width: 100%;
   }
   .carrito-cont {
     width: 90%;
