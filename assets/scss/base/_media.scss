@@ -215,13 +215,15 @@
     }
 
     .hero {
+        height: auto;
+
         .hero-text {
             gap: 0;
         }
 
         h1 {
-            margin-top: 50px;
-            font-size: 4rem;
+            margin-top: 30px;
+            font-size: 3.8rem;
             margin-bottom: 20px;
             padding: 0;
         }
