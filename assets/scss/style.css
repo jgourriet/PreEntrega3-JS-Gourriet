@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background: rgb(49, 47, 47);
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
 }
 body::-webkit-scrollbar {
   width: 8px;
@@ -98,7 +98,7 @@ nav {
 
 .nav-links a {
   list-style: none;
-  color: var(--text-blue);
+  color: black;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -413,7 +413,7 @@ hr {
 }
 
 .hero-text p {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 1.2rem;
   padding-right: 15%;
   width: 90%;
